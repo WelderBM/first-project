@@ -1,9 +1,10 @@
 .header{
-    background-color: #333;
-    height: 80px;
-    width: 100%;
+    background-color: var(--gray-800);
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    padding: 1.25rem 0;
+}
+
+.header img {
+    height: 2rem;
 }
